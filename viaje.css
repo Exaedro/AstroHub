@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('img/universo.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur('10px');
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+   padding: 40px;
+   color: #fff;
+}
+
+nav .nav-body {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+nav .nav-body li {
+    margin-right: 45px;
+}
