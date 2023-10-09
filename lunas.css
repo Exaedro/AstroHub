@@ -45,7 +45,7 @@ nav .nav-body li:hover a {
 
 .titulo {
     width: 1000px;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-left: 150px;
     font-size: 42px;
 }
@@ -67,6 +67,8 @@ nav .nav-body li:hover a {
     justify-content: space-around;
     flex-direction: row-reverse;
     gap: 50px;
+    margin-top: 250px;
+    margin-bottom: 250px;
 }
 
 .luna .info{
@@ -78,7 +80,7 @@ nav .nav-body li:hover a {
 }
 
 .lunas figure {
-    width: 800px;
+    width: 750px;
 }
 
 .lunas img {
@@ -87,6 +89,7 @@ nav .nav-body li:hover a {
 
 .lunas h3 {
     font-size: 42px;
+    margin-bottom: 10px;
 }
 
 .lunas p {
