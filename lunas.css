@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('img/Backgorund.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+   padding: 40px;
+   color: #fff;
+}
+
+nav .nav-body {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+nav .nav-body li {
+    margin-right: 45px;
+}
+
+nav .nav-body li a {
+    transition: all 0.3s ease;
+}
+
+nav .nav-body li:hover a {
+    color: #bababa;
+}
+
+/* Agregado */
+
+.titulo {
+    width: 1000px;
+    margin-top: 180px;
+    margin-left: 150px;
+    font-size: 42px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 150px;
+}
+
+.lunas {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.luna {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.luna .info{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunas figure {
+    width: 800px;
+}
+
+.lunas img {
+    width: 100%;
+}
+
+.lunas h3 {
+    font-size: 42px;
+}
+
+.lunas p {
+    font-size: 20px;
+}
+
+.remarcar {
+    color: #b87aff;
+}
