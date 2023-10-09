@@ -41,14 +41,14 @@ nav .nav-body li:hover a {
     color: #bababa;
 }
 
-.frase {
+.titulo {
     width: 1000px;
     margin-top: 100px;
     margin-left: 140px;
     font-size: 42px;
 }
 
-.frase h1 {
+.titulo h1 {
     font-weight: 700;
     color: #fff;
     margin-bottom: 45px;
