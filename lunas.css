@@ -48,6 +48,7 @@ nav .nav-body li:hover a {
     margin-top: 150px;
     margin-left: 150px;
     font-size: 42px;
+    animation: mover 5s ease infinite;
 }
 
 .titulo h1 {
@@ -98,4 +99,16 @@ nav .nav-body li:hover a {
 
 .remarcar {
     color: #b87aff;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
