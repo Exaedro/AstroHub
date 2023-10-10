@@ -46,6 +46,7 @@ nav .nav-body li:hover a {
     margin-top: 100px;
     margin-left: 140px;
     font-size: 42px;
+    animation: mover 5s ease infinite;
 }
 
 .titulo h1 {
@@ -59,4 +60,28 @@ nav .nav-body li:hover a {
     padding: 10px 30px 10px 30px;
     font-size: 34px;
     border-radius: 5px;
+}
+
+.remarcar-palabra {
+    position: relative;
+    bottom: 0px;
+    transition: all 0.3s ease, bottom 0.3s ease;
+}
+
+.remarcar-palabra:hover {
+    position: relative;
+    bottom: 11px;
+    color: #7200af;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
