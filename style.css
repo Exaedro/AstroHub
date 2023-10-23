@@ -60,6 +60,13 @@ nav .nav-body li:hover a {
     padding: 10px 30px 10px 30px;
     font-size: 34px;
     border-radius: 5px;
+    cursor: crosshair;
+    transition: all 0.3s ease;
+}
+
+.btn-blanco:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .remarcar-palabra {

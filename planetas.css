@@ -57,26 +57,25 @@ nav .nav-body li:hover a {
     margin-bottom: 150px;
 }
 
-.lunas {
+.planetas {
     width: 1200px;
     margin: 0 auto;
     color: #fff;
 }
 
-.luna {
+.planeta {
     display: flex;
     justify-content: space-around;
-    
     gap: 50px;
     margin-top: 250px;
     margin-bottom: 250px;
 }
 
-.luna:nth-child(odd) {
+.planeta:nth-child(odd) {
     flex-direction: row-reverse;
 }
 
-.luna .info{
+.planeta .info{
     width: 800px;
     display: flex;
     flex-direction: column;
@@ -84,20 +83,20 @@ nav .nav-body li:hover a {
     align-items: center;
 }
 
-.lunas figure {
+.planetas figure {
     width: 750px;
 }
 
-.lunas img {
+.planetas img {
     width: 100%;
 }
 
-.lunas h3 {
+.planetas h3 {
     font-size: 42px;
     margin-bottom: 10px;
 }
 
-.lunas p {
+.planetas p {
     font-size: 20px;
 }
 

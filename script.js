@@ -12,5 +12,6 @@ aleatorio.forEach(palabra => {
     span.innerHTML = palabra
     span.style.display = 'inline-block'
     span.style.marginRight = '15px'
+    span.style.cursor = 'default'
     fraseh1.appendChild(span)
 })
