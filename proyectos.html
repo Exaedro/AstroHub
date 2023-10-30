@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="proyectos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul class="nav-body">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="planetas.html">Planetas</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="lunas.html">Lunas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="titulo">
+            <h1>Proyectos espaciales del momento</h1>
+        </section>
+        <section class="proyectos">
+            <article class="proyecto" id="curiosity">
+                <div class="info">
+                    <h3 class="remarcar">Curiosity</h3>
+                    <p>La Misión Curiosity, dirigida por la NASA, envió el rover Curiosity a Marte en 2012. El objetivo de este proyecto era explorar la geología y el clima de Marte, así como buscar evidencia de vida pasada o presente. Curiosity ha recopilado datos cruciales sobre la habitabilidad pasada del planeta rojo y ha proporcionado información esencial para futuras misiones tripuladas a Marte.</p>
+                </div>
+                <figure>
+                    <img src="img/curiosity.jpg" loading="lazy" alt="Curiosity">
+                </figure>
+            </article>
+            <article class="proyecto" id="Starlink">
+                <div class="info">
+                    <h3 class="remarcar">Starlink</h3>
+                    <p>El proyecto Starlink, liderado por SpaceX, tiene como objetivo crear una megaconstelación de satélites en órbita terrestre para proporcionar acceso a Internet de alta velocidad en todo el mundo. A partir de 2018, se han lanzado miles de satélites Starlink, y el proyecto pretende conectar a comunidades rurales y regiones sin acceso a Internet, transformando la conectividad global. </p>
+                </div>
+                <figure>
+                    <img src="img/starlink.jpg" loading="lazy" alt="Starlink">
+                </figure>
+            </article>
+            <article class="proyecto" id="TerraSAR-X">
+                <div class="info">
+                    <h3 class="remarcar">TerraSAR-X</h3>
+                    <p>El proyecto TerraSAR-X fue lanzado en 2007 por la Agencia Espacial Alemana (DLR) en colaboración con Airbus Defence and Space. Este satélite utiliza tecnología de radar para observar la Tierra y proporcionar imágenes de alta resolución, incluso en condiciones climáticas adversas. Su objetivo es monitorear cambios en la superficie terrestre, como la detección de deslizamientos de tierra, la gestión de recursos naturales y la respuesta a desastres naturales.</p>
+                </div>
+                <figure>
+                    <img src="img/terrasar.jfif" loading="lazy" alt="TerraSAR-X">
+                </figure>
+            </article>
+            <article class="proyecto" id="JamesWebb">
+                <div class="info">
+                    <h3 class="remarcar">JamesWebb</h3>
+                    <p>La Misión James Webb Space Telescope, Es un telescopio espacial infrarrojo de próxima generación. Su objetivo es estudiar el universo en longitudes de onda infrarrojas, lo que permitirá observaciones más profundas y precisas de objetos cósmicos, incluyendo la formación de estrellas y planetas, y la investigación de atmósferas planetarias.</p>
+                </div>
+                <figure>
+                    <img src="img/jameswebb.jpg" loading="lazy" alt="JamesWebb">
+                </figure>
+            </article>
+            <article class="proyecto" id="Von Braun">
+                <div class="info">
+                    <h3 class="remarcar">Von Braun</h3>
+                    <p>La Fundación Gateway está desarrollando el concepto de una estación espacial rotativa llamada Von Braun Station, que podría orbitar la Tierra y servir como una estación espacial en la que las personas puedan vivir y trabajar a largo plazo. Este proyecto busca crear una infraestructura para la futura colonización del espacio y la exploración más allá de la órbita terrestre baja.</p>
+                </div>
+                <figure>
+                    <img src="img/vonbraun.jpg" loading="lazy" alt="Von Braun">
+                </figure>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a href="https://exaedro-dev.vercel.app/" target="_blank">Hecho por <span class="remarcar">Exaedro</span></a>
+    </footer>
 </body>
 </html>
