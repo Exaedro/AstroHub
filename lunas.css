@@ -81,6 +81,7 @@ nav .nav-body li:hover a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 1.7;
 }
 
 .lunas figure {
@@ -89,7 +90,7 @@ nav .nav-body li:hover a {
 
 .lunas img {
     width: 100%;
-    animation: girar 300s ease infinite;
+    animation: girar 300s linear infinite;
 }
 
 .lunas h3 {
@@ -122,11 +123,7 @@ nav .nav-body li:hover a {
         transform: rotate(0deg);
     }
 
-    50% {
-        transform: rotate(360deg);
-    }
-
     100% {
-        transform: rotate(0deg);
+        transform: rotate(360deg);
     }
 }
