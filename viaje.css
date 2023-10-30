@@ -44,3 +44,31 @@ nav .nav-body li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+.container {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px;
+    font-size: 42px;
+    font-family: system-ui;
+    font-weight: 500;
+    margin: 200px auto 200px auto;
+  }
+  
+  .titulo {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .titulo h2 {
+    position: sticky;
+    top: 50px;
+    left: 0;
+  }
+  
+  .texto p:nth-child(1) {
+    margin-bottom: 150px;
+  }
