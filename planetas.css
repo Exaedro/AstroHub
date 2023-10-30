@@ -81,6 +81,7 @@ nav .nav-body li:hover a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 1.7;
 }
 
 .planetas figure {
