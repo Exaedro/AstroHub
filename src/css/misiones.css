@@ -1,47 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-}
+@import url('partials/base.css');
 
 body {
-    background-image: url('img/Backgorund.gif');
+    background-image: url('../../img/Backgorund.gif');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;
 }
-
-nav {
-   padding: 40px;
-   color: #fff;
-}
-
-nav .nav-body {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 20px;
-}
-
-nav .nav-body li {
-    margin-right: 45px;
-}
-
-nav .nav-body li a {
-    transition: all 0.3s ease;
-}
-
-nav .nav-body li:hover a {
-    color: #bababa;
-}
-
-/* Agregado */
 
 .titulo {
     width: 1000px;
@@ -154,16 +117,4 @@ footer a {
 
 footer a:hover {
     transform: scale(1.060);
-}
-
-@keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-12px);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }

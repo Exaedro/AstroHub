@@ -1,0 +1,41 @@
+@import url('partials/base.css');
+
+body {
+    background-image: url('../../img/fondo.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 140px;
+    font-size: 42px;
+    animation: mover 5s ease infinite;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.btn-blanco {
+    border: 2px solid #ededed;
+    padding: 10px 30px 10px 30px;
+    font-size: 34px;
+    border-radius: 5px;
+    cursor: crosshair;
+    transition: all 0.3s ease;
+}
+
+.btn-blanco:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
